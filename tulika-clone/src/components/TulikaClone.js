@@ -5,7 +5,9 @@ import "./TulikaClone.css";
 export const TulikaClone = () => {
   return (
     <div className="main">
-      <img src={himawari} alt="himawari" />
+      <div className="maincover">
+        <img src={himawari} alt="himawari" />
+      </div>
       <div className="card">
         <div className="Himawari">
           <img src={himawari} alt="himawari" />
@@ -40,48 +42,58 @@ export const TulikaClone = () => {
         </div>
       </div>
       <div className="banner1">
-        <div className="banner">
-          <img src={himawari} alt="himawari" />
-          <h5>PAINTNG</h5>
+        <div className="banner-container">
+          <div className="banner">
+            <img src={himawari} alt="himawari" />
+            <h5>PAINTNG</h5>
+          </div>
+
+          <div className="banner">
+            <img src={himawari} alt="himawari" />
+            <h5>PAINTNG</h5>
+          </div>
         </div>
 
-        <div className="banner">
-          <img src={himawari} alt="himawari" />
-          <h5>PAINTNG</h5>
-        </div>
+        <div className="banner-container">
+          <div className="banner">
+            <img src={himawari} alt="himawari" />
+            <h5>PAINTNG</h5>
+          </div>
 
-        <div className="banner">
-          <img src={himawari} alt="himawari" />
-          <h5>PAINTNG</h5>
-        </div>
-
-        <div className="banner">
-          <img src={himawari} alt="himawari" />
-          <h5>PAINTNG</h5>
+          <div className="banner">
+            <img src={himawari} alt="himawari" />
+            <h5>PAINTNG</h5>
+          </div>
         </div>
       </div>
 
       <div className="banner1">
-        <div className="banner">
-          <img src={himawari} alt="himawari" />
-          <h5>PAINTNG</h5>
+        <div className="banner-container">
+          <div className="banner">
+            <img src={himawari} alt="himawari" />
+            <h5>PAINTNG</h5>
+          </div>
+
+          <div className="banner">
+            <img src={himawari} alt="himawari" />
+            <h5>PAINTNG</h5>
+          </div>
         </div>
 
-        <div className="banner">
-          <img src={himawari} alt="himawari" />
-          <h5>PAINTNG</h5>
-        </div>
+        <div className="banner-container">
+          <div className="banner">
+            <img src={himawari} alt="himawari" />
+            <h5>PAINTNG</h5>
+          </div>
 
-        <div className="banner">
-          <img src={himawari} alt="himawari" />
-          <h5>PAINTNG</h5>
-        </div>
-
-        <div className="banner">
-          <img src={himawari} alt="himawari" />
-          <h5>PAINTNG</h5>
+          <div className="banner">
+            <img src={himawari} alt="himawari" />
+            <h5>PAINTNG</h5>
+          </div>
         </div>
       </div>
     </div>
+    // </div>
+    // </div>
   );
 };

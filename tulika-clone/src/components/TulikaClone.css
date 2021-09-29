@@ -1,6 +1,5 @@
 .main {
   width: 100%;
-  height: 35rem;
 }
 
 .main img {
@@ -31,10 +30,6 @@
   object-fit: cover;
 }
 
-/* h4 {
-  border-bottom: 1px solid grey;
-} */
-
 .cardContent {
   width: 145px;
   height: 100px;
@@ -49,8 +44,6 @@
   flex-direction: row;
   justify-content: space-around;
   width: 100%;
-
-  /* padding: 15px; */
 }
 
 .banner {
@@ -78,31 +71,41 @@
   object-fit: cover;
 }
 
+.banner-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
 @media only screen and (max-width: 415px) {
   .card {
+    display: none;
+  }
+
+  .banner1 {
+    width: 100%;
+    display: flex;
     flex-direction: column;
   }
 
-  .cardContent {
-    text-align: center;
-  }
-  .banner1 {
+  .banner-container {
+    /* width: 90%;
+    margin: auto;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 100%;
-    /* padding: 10px; */
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap; */
+    display: flex;
+    flex-direction: row;
   }
 
   .banner {
-    display: flex;
-    width: 15rem;
-    height: 5rem;
+    margin: 6px;
+    height: 140px;
+    padding: 0px;
   }
 
-  .Himawari {
-    display: flex;
-    flex-direction: column;
+  .banner img {
+    width: 170px;
+    height: 100px;
+    border-radius: 8px;
   }
 }

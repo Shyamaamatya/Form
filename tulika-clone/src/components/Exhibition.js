@@ -1,9 +1,10 @@
 import React from "react";
+// import "./Exhibition.css";
 
 export const Exhibition = () => {
   return (
     <div>
-      <h1>Exhibition Page</h1>
+      <h1>Exhibition</h1>
     </div>
   );
 };

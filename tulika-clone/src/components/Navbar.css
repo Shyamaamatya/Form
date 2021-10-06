@@ -3,8 +3,13 @@
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
-  background-color: black;
+  /* background-color: black; */
   width: 100%;
+  background-color: #212121;
+  /* position: fixed;
+  top: 0;
+  left: 0;
+  right: 0; */
 }
 
 .nav-left {
@@ -31,7 +36,8 @@
 }
 
 .logo {
-  background-color: black;
+  background-color: #212121;
+  /* background-color: black; */
   width: 75px;
   height: 20px;
   border-right: solid 1px grey;
@@ -44,7 +50,8 @@
 }
 
 .search {
-  background-color: black;
+  background-color: #212121;
+  /* background-color: black; */
   border: none;
   padding: 10px 12px;
 }
@@ -98,7 +105,7 @@
   }
 }
 
-@media only screen and (min-width: 901px) {
+/* @media only screen and (min-width: 901px) {
   .nav-right {
     list-style: none;
     display: flex;
@@ -112,5 +119,11 @@
 @media only screen and (min-width: 1050px) {
   .nav-right {
     border-right: solid 1px grey;
+  }
+} */
+
+@media screen and (max-width: 991px) {
+  .nav {
+    display: none;
   }
 }

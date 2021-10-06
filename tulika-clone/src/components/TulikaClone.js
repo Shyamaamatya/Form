@@ -1,12 +1,16 @@
 import React from "react";
 import himawari from "../Images/himawari.jpg";
+import hill from "../Images/hill.jpg";
+
 import "./TulikaClone.css";
 
 export const TulikaClone = () => {
   return (
     <div className="main">
       <div className="maincover">
-        <img src={himawari} alt="himawari" />
+        <div className="cover">
+          <img src={hill} alt="hill" />
+        </div>
       </div>
       <div className="card">
         <div className="Himawari">
